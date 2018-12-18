@@ -6,6 +6,7 @@ class Recommend extends PureComponent{
 
     render() {
         const { list } = this.props;
+        console.log(this.props);
         return (
             <RecommendWrapper>
                 {
